@@ -4,9 +4,39 @@
 }
 
 .container {
-  background-color: azure;
+  background-color: rgba(55, 255, 255, 0.781);
   max-width: 600px;
   padding: 25px;
   margin: 100px auto;
   border-radius: 20px;
+}
+
+h1 {
+  margin-top: 0;
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin: 10px 0;
+  width: 100%;
+}
+
+button {
+  width: 100%;
+  background-color: green;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  margin: 10px 0;
+  font-size: 20px;
+  color: white;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+button:hover {
+  background-color: rgba(0, 128, 0, 0.732);
 }

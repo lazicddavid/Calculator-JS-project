@@ -1,0 +1,12 @@
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: azure;
+  max-width: 600px;
+  padding: 25px;
+  margin: 100px auto;
+  border-radius: 20px;
+}

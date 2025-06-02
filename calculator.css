@@ -40,3 +40,9 @@ button {
 button:hover {
   background-color: rgba(0, 128, 0, 0.732);
 }
+
+#total {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 10px;
+}

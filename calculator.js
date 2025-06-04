@@ -1,7 +1,4 @@
-const btnElement = document.getElementById("calculate");
-const billInput = document.getElementById("bill");
-const tipInput = document.getElementById("tip");
-const totalSpan = document.getElementById("total");
+/*
 let bill;
 let tip;
 let total;
@@ -10,13 +7,33 @@ let total;
 //sacuvaj vrednosti iz tih inputa u varijable bill i tip
 // onda na klik saberi ih, i to sacuvaj u varijabli total
 // Varijablu total ispisi na ekran
+*/
 
-function calculateTotal() {
-  const billValue = billInput.value;
-  const tipValue = tipInput.value;
-  const totalValue = billValue * (1 + tipValue / 100);
-  totalSpan.textContent = totalValue;
-  console.log(totalValue);
-}
+let bill = 0;
+let tip = 0;
+let total = 0;
 
-btnElement.addEventListener("click", calculateTotal);
+const billInput = document.getElementById("bill");
+const tipInput = document.getElementById("tip");
+const totalSpan = document.getElementById("total");
+const btnElement = document.getElementById("calculate");
+
+billInput.addEventListener("input", function (e) {
+  bill = Number(billInput.value);
+  console.log(e.target.value);
+  console.log(e);
+});
+
+tipInput.addEventListener("input", function () {
+  tip = Number(tipInput.value);
+});
+
+btnElement.addEventListener("click", function () {
+  total = bill + (bill * tip) / 100;
+  totalSpan.textContent = total;
+});
+
+//umesto da se desava na klik, neka se desava na eventSubmit, racucanje totala
+// da bi to uradio, moras imati formu, i na formu staviti EventListener submit
+
+//how to add submit Event on a form on JS

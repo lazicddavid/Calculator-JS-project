@@ -33,7 +33,6 @@ btnElement.addEventListener("click", function () {
   totalSpan.textContent = total;
 });
 
-<btnElement ()
 function ()
 
 //umesto da se desava na klik, neka se desava na eventSubmit, racucanje totala

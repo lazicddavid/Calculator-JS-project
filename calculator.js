@@ -34,7 +34,7 @@ btnElement.addEventListener("click", function () {
 });
 
 function (
-  btnElement
+input
 )
 
 //umesto da se desava na klik, neka se desava na eventSubmit, racucanje totala

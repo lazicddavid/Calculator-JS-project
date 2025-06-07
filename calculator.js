@@ -33,9 +33,9 @@ btnElement.addEventListener("click", function () {
   totalSpan.textContent = total;
 });
 
-function (
-input
-)
+<li>
+  gi
+</li>
 
 //umesto da se desava na klik, neka se desava na eventSubmit, racucanje totala
 // da bi to uradio, moras imati formu, i na formu staviti EventListener submit

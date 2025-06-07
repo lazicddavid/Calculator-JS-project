@@ -37,6 +37,7 @@ btnElement.addEventListener("click", function () {
   <j1>form js</j1>
 </li>;
 
+btnElement();
 //umesto da se desava na klik, neka se desava na eventSubmit, racucanje totala
 // da bi to uradio, moras imati formu, i na formu staviti EventListener submit
 

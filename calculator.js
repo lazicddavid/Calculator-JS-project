@@ -33,9 +33,7 @@ btnElement.addEventListener("click", function () {
   totalSpan.textContent = total;
 });
 
-<li>
-  <j1>form js</j1>
-</li>;
+<getComputedStyle.da
 
 btnElement();
 //umesto da se desava na klik, neka se desava na eventSubmit, racucanje totala

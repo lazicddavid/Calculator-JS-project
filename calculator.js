@@ -58,5 +58,7 @@ tipInput.addEventListener("input", function () {
 form.addEventListener("submit", function (event) {
   event.preventDefault();
   total = bill * (1 + tip / 100);
+
+  totalSpan.textContent = total;
   totalSpan.textContent = total;
 });

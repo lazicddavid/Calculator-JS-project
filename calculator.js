@@ -1,8 +1,4 @@
 /*
-let bill;
-let tip;
-let total;
-
 // na input za bill i input za tip stavi EventListener "input"
 //sacuvaj vrednosti iz tih inputa u varijable bill i tip
 // onda na klik saberi ih, i to sacuvaj u varijabli total
@@ -35,7 +31,16 @@ tipInput.addEventListener("input", function () {
 });
 
 form.addEventListener("submit", function (event) {
-  event.preventDefault();
+  event.preventDefault(); /////
   total = bill * (1 + tip / 100);
   totalSpan.textContent = total;
 });
+
+// roll dice:
+// napravi array slike
+// u taj array sacuvaj 6 slika ("./slika1.jpg")
+// tako da je, slike[0 ] = slika1.jpg
+// kad kliknem roll , izgenerisem random broj
+// taj random broj iskoristim da pogodim sliku iz array slike
+
+
